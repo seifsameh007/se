@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>SMT PRO (Owners)</h1>
+        </div>
+        <form class="login-form">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+            <div class="input-group password-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <!-- زر عرض وإخفاء كلمة المرور -->
+                <img src="show.png" id="togglePassword" alt="Toggle Password Visibility" style="cursor: pointer; width: 20px; margin-left: 24px;">
+                <div class="forgot-password">
+                    <a href="#">Forget Password</a>
+                </div>
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+            <button type="submit" class="login-button">
+                <img src="Arrow.png" alt="Login">
+            </button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
